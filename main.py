@@ -15,7 +15,6 @@ def connected_components(graph):
 
     return cc
 
-
 v, e = map(int, input().split())
 graph = [[] for _ in range(v)]
 for _ in range(e):
